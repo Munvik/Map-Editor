@@ -15,9 +15,11 @@ void Editor::run()
 
 	while (window.isOpen())
 	{
-		
-
-		window.
+	
+		while(window.pollEvent(evnt))
+		{
+			
+		}
 	}
 
 
