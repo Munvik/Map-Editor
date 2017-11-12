@@ -18,9 +18,17 @@ void Editor::run()
 	
 		while(window.pollEvent(evnt))
 		{
-			
+			if (evnt.type = sf::Event::Closed)
+			{
+
+			}
 		}
 	}
 
 
+}
+
+void Editor::exit()
+{
+	window.close();
 }

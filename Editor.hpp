@@ -14,6 +14,7 @@ public:
 	Editor();
 	~Editor();
 	void run();
+	void exit();
 };
 
 
