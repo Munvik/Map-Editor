@@ -10,7 +10,7 @@
 #endif // WINDOWS
 
 #include <SFML\Graphics.hpp>
-
+#include <vector>
 #include <iostream>
 #include <memory>
 #define TILESIZE 32
