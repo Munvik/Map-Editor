@@ -3,7 +3,7 @@
 Editor::Editor()
 	:window(sf::VideoMode(1080,720), "MapEditor", sf::Style::Default)
 {
-
+	window.setVerticalSyncEnabled(true);
 }
 
 Editor::~Editor()
@@ -13,6 +13,7 @@ Editor::~Editor()
 void Editor::run()
 {
 
+
 	while (window.isOpen())
 	{
 	
@@ -20,9 +21,13 @@ void Editor::run()
 		{
 			if (evnt.type = sf::Event::Closed)
 			{
-
+				exit();
 			}
 		}
+		
+		sf::Color color = sf::Color::Yellow;
+		//window.clear(sf::Color::Blue);
+		window.display();
 	}
 
 

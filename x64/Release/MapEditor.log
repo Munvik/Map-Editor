@@ -1,7 +1,2 @@
-﻿  Editor.cpp
-  Trwa generowanie kodu
-  0 of 1 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Zakończono generowanie kodu
-  MapEditor.vcxproj -> C:\Users\Bartek\source\repos\MapEditor\x64\Release\MapEditor.exe
+﻿Editor.obj : error LNK2001: nierozpoznany symbol zewnętrzny "public: static class sf::Color const sf::Color::Yellow" (?Yellow@Color@sf@@2V12@B)
+C:\Users\Bartek\source\repos\MapEditor\x64\Release\MapEditor.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 1
